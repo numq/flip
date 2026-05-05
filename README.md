@@ -9,6 +9,10 @@ FLIP organizes code into five layers. Each layer has a single responsibility and
 
 ### Layers
 
+<p align="center">
+  <img src="./media/flip-layers.svg" alt="FLIP Layers" width="512"/>
+</p>
+
 | Layer                     | Purpose                        | Depends on                                     |
 |---------------------------|--------------------------------|------------------------------------------------|
 | `:common:core`            | Common logic                   | Nothing                                        |
@@ -18,12 +22,6 @@ FLIP organizes code into five layers. Each layer has a single responsibility and
 | `:feature:*:presentation` | Feature presentation           | `:common:presentation`, `:feature:*:core`      |
 | `:platform`               | Platform entry point           | `:entrypoint`                                  |
 | `:service`                | Domain without presentation    | `:common:core`                                 |
-
-## Architecture Diagram
-
-<p align="center">
-  <img src="./media/flip-layers.svg" alt="FLIP Layers" width="512"/>
-</p>
 
 ## Dependency Rules
 

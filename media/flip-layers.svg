@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1001 1001">
+  <title>flip-layers</title>
+  <circle cx="500.5" cy="500.5" r="500" style="fill: #f6923b;stroke: #000;stroke-miterlimit: 10"/>
+  <text transform="translate(441.71875 959.66406)" style="font-size: 30px;font-family: Roboto-Regular, Roboto">:platform</text>
+  <circle cx="500.5" cy="500.5" r="400" style="fill: #f6ba74;stroke: #000;stroke-miterlimit: 10"/>
+  <text transform="translate(429.65283 859.26709)" style="font-size: 30px;font-family: Roboto-Regular, Roboto">:ent<tspan x="49.51172" y="0" style="letter-spacing: 0.0087890625em">r</tspan><tspan x="59.92676" y="0">ypoint</tspan></text>
+  <circle cx="500.5" cy="500.5" r="300" style="fill: #f5d7aa;stroke: #000;stroke-miterlimit: 10"/>
+  <text transform="translate(362.35791 759.26709)" style="font-size: 30px;font-family: Roboto-Regular, Roboto">:<tspan x="7.26563" y="0" style="letter-spacing: -0.01171875em">f</tspan><tspan x="17.3291" y="0">eatu</tspan><tspan x="75.87891" y="0" style="letter-spacing: -0.00927734375em">r</tspan><tspan x="85.75195" y="0">e:p</tspan><tspan x="125.74219" y="0" style="letter-spacing: -0.00927734375em">r</tspan><tspan x="135.61523" y="0">esentation</tspan></text>
+  <circle cx="500.5" cy="500.5" r="200" style="fill: #f8edd5;stroke: #000;stroke-miterlimit: 10"/>
+  <text transform="translate(416.75488 659.26709)" style="font-size: 30px;font-family: Roboto-Regular, Roboto">:<tspan x="7.26563" y="0" style="letter-spacing: -0.01171875em">f</tspan><tspan x="17.3291" y="0">eatu</tspan><tspan x="75.87891" y="0" style="letter-spacing: -0.00927734375em">r</tspan><tspan x="85.75195" y="0">e:co</tspan><tspan x="141.72363" y="0" style="letter-spacing: -0.00927734375em">r</tspan><tspan x="151.59668" y="0">e</tspan></text>
+  <circle cx="500.5" cy="500.5" r="100" style="fill: #faf7ed;stroke: #000;stroke-miterlimit: 10"/>
+  <text transform="translate(449.27441 509.26709)" style="font-size: 30px;font-family: Roboto-Regular, Roboto">:se<tspan x="38.62793" y="0" style="letter-spacing: 0.0087890625em">r</tspan><tspan x="49.04297" y="0">vice</tspan></text>
+</svg>

@@ -3,15 +3,15 @@
 **FLIP** is an architectural pattern for Kotlin Multiplatform (KMP) applications that enforces strict module boundaries
 through dependency rules rather than conventions.
 
+<p align="center">
+  <img src="./media/flip-layers.svg" alt="FLIP Layers" width="512"/>
+</p>
+
 ## Overview
 
 FLIP organizes code into five layers. Each layer has a single responsibility and a strictly defined set of dependencies.
 
 ### Layers
-
-<p align="center">
-  <img src="./media/flip-layers.svg" alt="FLIP Layers" width="512"/>
-</p>
 
 | Layer                     | Purpose                        | Depends on                                     |
 |---------------------------|--------------------------------|------------------------------------------------|

@@ -4,6 +4,6 @@ import arrow.core.raise.Raise
 import io.github.numq.flip.common.core.usecase.UseCase
 import io.github.numq.flip.service.seed.SeedService
 
-class GenerateRemoteRandomSeed(private val seedService: SeedService) : UseCase<Unit, Unit> {
-    override suspend fun Raise<Throwable>.execute(input: Unit) = seedService.generateSeed().bind()
+class GenerateRemoteRandomSeed(private val seedService: SeedService) : UseCase.Action {
+    override suspend fun Raise<Throwable>.action() = seedService.generateSeed().bind()
 }

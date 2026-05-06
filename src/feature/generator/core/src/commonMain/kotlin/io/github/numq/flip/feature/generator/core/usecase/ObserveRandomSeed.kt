@@ -14,8 +14,8 @@ import kotlin.time.Duration.Companion.milliseconds
 
 class ObserveRandomSeed(
     val generatorService: GeneratorService, val seedService: SeedService,
-) : UseCase<Unit, Flow<RandomSeed>> {
-    override suspend fun Raise<Throwable>.execute(input: Unit) = combine(
+) : UseCase.Query<Flow<RandomSeed>> {
+    override suspend fun Raise<Throwable>.query() = combine(
         flow = generatorService.randomSeed, flow2 = seedService.seed
     ) { randomSeed, seed ->
         seed.toRandomSeed(localSeed = randomSeed.localSeed)

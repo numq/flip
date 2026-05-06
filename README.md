@@ -7,6 +7,21 @@ through dependency rules rather than conventions.
   <img src="./media/flip-layers.svg" alt="FLIP Layers" width="512"/>
 </p>
 
+## Table of Contents
+
+- [Overview](#overview)
+    - [Layers](#layers)
+    - [Dependency Rules](#dependency-rules)
+        - [Core Rules](#core-rules)
+        - [Evolution](#evolution)
+        - [Service Layer](#service-layer)
+        - [Feature Layer](#feature-layer)
+        - [UseCase Rule](#usecase-rule)
+        - [Slot-Based Composition](#slot-based-composition)
+- [When to Use FLIP](#when-to-use-flip)
+- [Comparison](#comparison)
+- [License](#license)
+
 ## Overview
 
 FLIP organizes code into five layers. Each layer has a single responsibility and a strictly defined set of dependencies.
@@ -125,6 +140,10 @@ NavigationView(
 | Clean Architecture	 | Convention	            | Any	                     | Any            |
 | Decompose           | 	Runtime	              | Any	                     | Component tree |
 | Voyager	            | None	                  | Screen                   | 	Stack-based   |
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ___
 

@@ -26,11 +26,11 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
-val rootModules = listOf("service", "common", "feature", "entrypoint", "platform", "test")
+val rootModules = listOf("common", "entrypoint", "feature", "platform", "service", "test")
 
 val commonModules = listOf("core", "presentation")
 
-val featureModules = listOf("navigation", "generator")
+val featureModules = listOf("generator", "navigation")
 
 val featureSubmodules = listOf("core", "presentation")
 

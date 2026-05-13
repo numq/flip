@@ -1,10 +1,7 @@
 # FLIP — Feature-Layered Isolated Platform
 
-[![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@numq/reduce-conquer-repeat-how-the-reduce-conquer-architecture-can-improve-your-compose-9fece98a3bb8)
-
-[FLIP: Modular Architecture for KMP](https://medium.com/@numq/flip-modular-architecture-for-kmp-1ce424f6c92f)
-
-___
+[![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@numq/flip-modular-architecture-for-kmp-1ce424f6c92f)
+[![dev](https://img.shields.io/badge/dev-12100E?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/numq/flip-modular-architecture-for-kmp-89c)
 
 **FLIP** is an architectural pattern for Kotlin Multiplatform (KMP) applications that enforces strict module boundaries
 through dependency rules rather than conventions.

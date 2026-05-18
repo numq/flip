@@ -23,6 +23,7 @@ through dependency rules rather than conventions.
         - [Slot-Based Composition](#slot-based-composition)
 - [When to Use FLIP](#when-to-use-flip)
 - [Comparison](#comparison)
+- [See Also](#see-also)
 - [License](#license)
 
 ## Overview
@@ -137,6 +138,11 @@ FLIP fits any project where you want compile-time guarantees that your modules w
 | Clean Architecture	 | Convention	            | Any	                     | Any            |
 | Decompose           | 	Runtime	              | Any	                     | Component tree |
 | Voyager	            | None	                  | Screen                   | 	Stack-based   |
+
+## See Also
+
+- [Reduce & Conquer](https://github.com/numq/reduce-and-conquer) — The UI pattern used in FLIP features.
+- [UseCase](https://github.com/numq/usecase) — Typed business logic with CQRS at the function level.
 
 ## License
 

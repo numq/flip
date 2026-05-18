@@ -122,18 +122,12 @@ NavigationView(
 
 ### When to Use FLIP
 
-#### Use FLIP when:
+FLIP fits any project where you want compile-time guarantees that your modules won't turn into a big ball of mud.
 
-- Building medium to large KMP applications
-- Multiple teams work on different features
-- Strict isolation between features is required
-- You want compile-time enforcement of architecture boundaries
-
-#### Don't use FLIP when:
-
-- Building a small app with 1-2 screens
-- You don't need strict module isolation
-- Rapid prototyping without architectural overhead
+- Building KMP applications of any size
+- Multiple teams or developers working on different features
+- You want strict isolation between features
+- You prefer rules over conventions
 
 ### Comparison
 
